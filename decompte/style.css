@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quintessential&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,500&display=swap');
+*{
+    background-color:var(--color-tertiaire) ;
+    font-family: 'Architects Daughter';
+}
+
+:root{
+    --color-principale: #eeeeee;
+    --color-secondaire: #8b0000;
+    --color-tertiaire: #010127;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px ;
+    position: relative;
+    max-width: 900px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.main h1{
+    display: flex;
+    font-size: 2.5rem;
+    color:var(--color-principale);
+    text-decoration: 2px underline var(--color-secondaire);
+    text-underline-offset: 20px ;
+}
+
+.main .countdown{
+    display: flex;
+    margin: 20px 60px;
+}
+
+.time{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 40px;
+    font-size: 3rem;
+    font-weight: 700;
+    padding: 10px 5px 15px;
+    min-width: 110px;
+    color: var(--color-principale)
+}
+
+.time span{
+    margin-top: 5px;
+    font-size: 1.7rem;
+    font-weight: 600;
+    color: var(--color-secondaire)
+}
+
+.main h2{
+    display: flex;
+    font-size: 2.5rem;
+    color:var(--color-principale);
+    text-decoration: 2px underline var(--color-secondaire);
+    text-underline-offset: 20px ;
+    letter-spacing: 3px;
+}
+
+.main h3{
+    color: var(--color-principale);
+    font-size: 4rem;
+    font-family: 'Quintessential';
+    text-shadow: 5px 10px 20px var(--color-secondaire);
+}
+
+.main h4{
+    display: flex;
+    font-size: 1.9rem;
+    color:var(--color-principale);
+    text-underline-offset: 20px ;
+    letter-spacing: 3px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 0;
+}
