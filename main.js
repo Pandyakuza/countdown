@@ -6,7 +6,7 @@
 - Utilisation de la commande "console.log()" pour afficher le résultat sur le nav
 */
 
-const decompteDateFinale = new Date("nov 21, 2022 00:00:00").getTime();
+const decompteDateFinale = new Date("nov 21, 2025 00:00:00").getTime();
 console.log(decompteDateFinale);
 
 /*
